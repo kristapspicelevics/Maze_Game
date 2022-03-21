@@ -1,6 +1,6 @@
 # Maze Game
 
-Vinkārša Three.js spēlīte, kurā bumbiņa jāizved ārā no labirinta. Bumbiņu var pārvietot, izmantojot A,S,D,W taustiņus.
+Vienkārša Three.js spēlīte, kurā bumbiņa jāizved ārā no labirinta. Bumbiņu var pārvietot, izmantojot W,A,S,D taustiņus.
 
 Spēlē ir izmantota Ammo.js fizika un taustiņu funkcionalitāte.
 
