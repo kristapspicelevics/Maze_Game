@@ -124,7 +124,6 @@
 				controls.update();
                 renderer.render( scene, camera );
                 requestAnimationFrame( animate );
-
             }
 
             function setupEventHandlers(){
@@ -310,8 +309,8 @@
                 let rbInfo = new Ammo.btRigidBodyConstructionInfo( mass, motionState, colShape, localInertia );
                 let body = new Ammo.btRigidBody( rbInfo );
 
-                body.setFriction(40);
-                body.setRollingFriction(100);
+                body.setFriction(4);
+                body.setRollingFriction(10);
                 body.setRestitution(0.6);
                 body.setActivationState( STATE.DISABLE_DEACTIVATION );
                 body.setCollisionFlags( FLAGS.CF_KINEMATIC_OBJECT );
